@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document */
+*{ box-sizing: border-box} /* giữ diện tích các box đúng từ border vào*/
+.container{ width: 100%; margin: auto; } /* cho 1 box lớn cỡ 70% canh giữa trang */
+.container-fluid { width: 100%; padding: 15px}
+.container-70{width: 70%; margin: auto  ;height: auto ;}
+.row{ display: flex ; flex-wrap: wrap}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%; border: 1px solid #F0F0F0;border-radius: 10px;padding: 20px;margin: 10px}
+.cotud{width: 25%;margin: 0;padding: 0;}
+.col-ft{width: 20%; border-radius: 10px;padding: 20px;margin: 10px}
+.cotud1{width: 25%;margin: 20px;padding: 10;margin-top: 30px;}
+.w-100{width: 60%;}
+.col-4 {width: 20%; padding: 0px;margin: 0px}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.img-logo{width: 15%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-n{width: 100%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-501{width: 20%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-502{width: 25%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-503{width: 35%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-504{width: 50%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-505{width: 30%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-506{width: 25%; height: auto; display: block; margin-left: auto; margin-right: auto; }
+.img-logoft{width: 5%;}
+.margin{
+    justify-content: center;
+}
+[class*="col-"]
+{	 padding: 15px; 
+	
+}
+.img-100
+{
+	width: 80%;
+	height: auto
+}
+
+.p-0{ padding: 0}
+.text-center{ text-align: center}
+.text-black{ color: black}
+.tdoing{
+   margin-left: -180px;
+   margin-bottom: 180px;
+    padding-right: 300px;
+}
+.mt-10{margin-top: -20px}
+.vid{
+    margin-bottom: 130px;
+    margin-left: 100px
+}
+.pt-40{
+    font-size: 40pt;
+    padding-top: 30px;
+    
+    
+}
